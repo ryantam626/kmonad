@@ -473,8 +473,8 @@ keyCodeToWinCode = M.fromList
   -- , (KeySendFile, ???)
   -- , (KeyDeleteFile, ???)
   -- , (KeyXfer, ???)
-  -- , (KeyProg1, ???)
-  -- , (KeyProg2, ???)
+   , (KeyProg1, 0xB6)
+   , (KeyProg2, 0xB7)
   -- , (KeyWww, ???)
   -- , (KeyMsDos, ???)
   -- , (KeyCoffee, ???)
@@ -579,6 +579,6 @@ keyCodeToWinCode = M.fromList
   -- , (Missing251, ???)
   -- , (Missing252, ???)
   -- , (Missing253, ???)
-  -- , (Missing254, ???)
+   , (Missing254, 0x00)
   -- , (Missing255, ???)
   ]
