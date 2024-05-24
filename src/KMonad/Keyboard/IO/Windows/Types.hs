@@ -286,7 +286,7 @@ winCodeToKeyCode = M.fromList
   , (0xDC, KeyBackslash)    -- Defined as VK_OEM_5
   , (0xDD, KeyRightBrace)   -- Defined as VK_OEM_6
   , (0xDE, KeyApostrophe)   -- Defined as VK_OEM_7
-  -- , (0xDF, ???)             -- Defined ask VK_OEM_8
+  , (0xDF, KeyGrave)        -- Defined ask VK_OEM_8
   -- , (0xE1, ???)             -- Defined as `OEM specific`
   , (0xE2, Key102nd)
   -- , (0xE3, ???)             -- Defined as `OEM specific`
